@@ -6,4 +6,5 @@
 - git
 - command line
 - regular exprressions
+- vim (add a little bit each week)
 
