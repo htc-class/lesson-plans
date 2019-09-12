@@ -10,6 +10,14 @@ chmod 600 ~/.ssh/htc.pem
 ssh -i ~/.ssh/htc.pem ubuntu@<IP>
 (or configure in ssh config)
 
+# change it so new users are created with bash as default shell
+sudo vim /etc/default/useradd
+# ^^ change line to be: `SHELL=/bin/bash`
+
+# install node
+curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
+sudo apt-get install -y nodejs
+
 # allow ssh with password
 sudo vim /etc/ssh/sshd_config
 # ^^ change `PasswordAuthentication` to `yes`
@@ -23,10 +31,5 @@ sudo passwd test # it will prompt you
 # grant sudo rights
 sudo adduser test sudo
 
-kiah
-win
-harriet
-bri
-tabitha
-willow
-eden
+# put shell into vi mode
+sudo echo "set -o vi" >> /home/test/.bashrc
