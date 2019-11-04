@@ -21,15 +21,17 @@ sudo apt-get install -y nodejs
 # allow ssh with password
 sudo vim /etc/ssh/sshd_config
 # ^^ change `PasswordAuthentication` to `yes`
+sudo service ssh reload
 
 # create a new user
-sudo useradd -m test
+NEW_USER=kiah
+useradd -m $NEW_USER
 
 # set the password
-sudo passwd test # it will prompt you
+sudo passwd $NEW_USER # it will prompt you
 
 # grant sudo rights
-sudo adduser test sudo
+sudo adduser $NEW_USER sudo
 
 # put shell into vi mode
-sudo echo "set -o vi" >> /home/test/.bashrc
+sudo echo "set -o vi" >> /home/$NEW_USER/.bashrc

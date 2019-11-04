@@ -2,9 +2,11 @@
 
 - MAIN GOAL: CLI (what, why, and basics)
 - discussion of why learn this stuff
+- discuss our multi-threaded approach
+- discuss CCCS briefly, and the htc viewer page
+- show slack, explain, send invites, get kids signed on
 - what I wish I had learned
 - fundamentals "wax on, wax off"
-- discuss our multi-threaded approach
 - layers of abstraction
 - make us start at low-level, feel pain, then move up
 - typing
@@ -15,6 +17,8 @@
 - stdin /stdout / stderr
 - shell into our shared box
 - basics of html - tags & attributes
+- remap capslock keys to esc
+- prep for homework (show opening vimtutor, touch typing website, and CCCS viewer)
 
 
 ### Command line stuff
@@ -31,8 +35,20 @@
 - paths `../`, `./`, etc.
 - flags `mkdir -p`, `ls -a`
 - history and <UP>
-- less (including u, d, and q) (important for git)
+- less (including j, k,  u, d, and q) (important for git)
 - basic piping (for extra credit)
+
+### week 2 cli stuff
+
+- variables
+- `~` home shortcut
+- executables
+- $PATH
+- echo
+- grep
+- pipe
+- cp
+- tab completion and <UP>
 
 ### Homework for first week
 
@@ -43,25 +59,6 @@
 - download and sign up for our slack channel
 - command-line practice (need some exercizes)
 - review your flashcards
-
-#### CLI practice
-
-- ssh into your home dir
-- make a new folder called `monday`
-- move into that new folder
-- type a command that will print the full path to the directory you're in
-- create a new empty file (without using vim) called `hello.txt`
-- create a file containing the word "testing" (w/o vim) called `test.txt`
-- prove that the file contains "testing" by typing a command to print the contents to stdout
-- now move back up to your home directory
-- move BACK into your `monday` folder and then get BACK up to your home folder using a slightly different command
-- all in one command, make a new folder inside your home dir called `one`, with a folder inside it called `two`, and a folder inside `two` called `three`
-- print your current directory again, you should still be in your home dir
-- now jump all the way into the `three` dir with ONE command
-- using vim, create a new file called `name.txt` and put your first, middle, and last name on the first 3 lines
-
-- use `man <CMD>` to explore one command we went over, learn something new to bring to class
-
 
 ### Lesson #2
 
