@@ -35,3 +35,18 @@ sudo adduser $NEW_USER sudo
 
 # put shell into vi mode
 sudo echo "set -o vi" >> /home/$NEW_USER/.bashrc
+
+# change vim config a bit
+sudo vim etc/vim/vimrc
+# add lines:
+set tabstop=2
+set shiftwidth=2
+set softtabstop=2
+set expandtab
+set autoindent
+set smarttab
+
+# install and configure nginx
+sudo apt update
+sudo apt install nginx
+sudo vim /etc/nginx/sites-available/default #see nginx.conf file in this dir

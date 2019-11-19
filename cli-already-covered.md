@@ -1,4 +1,5 @@
 ## Week 3
+
 - `pwd`
 - `ls`
 - `cd`
@@ -41,3 +42,12 @@
 
 - `cp`
 - `sudo`
+
+## Week 8
+
+- shell `vi` mode (`set -o vi`)
+- bash variables
+- bash exit codes
+- briefly touched on using `&&`
+- basic scripting (creating `.sh` files with bash commands)
+- `sed`
