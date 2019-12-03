@@ -20,3 +20,14 @@
 ## Week 10
 
 - `[abc]` character classes, including RANGES, and NEGATION
+
+## Week 11
+
+- `{3}` and `{2,5}` numeric quantifiers
+- `\d` digit shorthand token
+
+## Week 12
+
+- `\b` word boundary
+- `\w` "word" char 
+- `?` after quantifier: `+?` or `*?` -> LAZY

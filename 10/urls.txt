@@ -1,0 +1,6 @@
+Web page (http://foobar.com/jim/jam/index.html) (http://foo.com/bar.html)
+PDF: [https://herp.com/foo.pdf] banana hello.pdf
+<a href="http://lol.com/herp.html">Link</a>
+<img src="../foo/bar/img.jpg" />
+Images: Foo.jpeg ../banana/cat.gif http://www.cats.com/cat.png
+<p>Here is a paragaph 1 line long!</p>
