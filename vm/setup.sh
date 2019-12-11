@@ -33,8 +33,10 @@ sudo passwd $NEW_USER # it will prompt you
 # grant sudo rights
 sudo adduser $NEW_USER sudo
 
-# put shell into vi mode
+# customize the .bashrc a bit
 sudo echo "set -o vi" >> /home/$NEW_USER/.bashrc
+sudo echo "export PATH=/.npm-global/bin:$PATH" >> /home/test/.bashrc
+sudo echo "alias node='node --use_strict'" >> /home/test/.bashrc
 
 # change vim config a bit
 sudo vim etc/vim/vimrc

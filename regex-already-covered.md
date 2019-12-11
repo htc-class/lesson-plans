@@ -31,3 +31,8 @@
 - `\b` word boundary
 - `\w` "word" char 
 - `?` after quantifier: `+?` or `*?` -> LAZY
+
+## Week 13
+
+- `\s` whitespace
+- negations of other tokens: `\S`, `\D`, `\W`
