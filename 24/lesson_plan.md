@@ -17,8 +17,6 @@
 
 - baby steps, console.log and wishful thinking
 - demo the solution to web homework
-- implement arrayForEach, arrayMap, arrayFilter
-- show adding sums, concatenating strings, show the need for .reduce, build (arrayAccum)
 - diagram streams of transformations
 
 ### HTML (forms!)
@@ -32,18 +30,4 @@
 - radio
 - checkbox
 - button
-
-### HTML (other semantic tags)
-
-- nav
-- header
-- footer
-- section
-- main
-- aside
-- article
-
-### CSS
-
-:hover
 
