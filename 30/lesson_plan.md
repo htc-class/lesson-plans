@@ -1,27 +1,15 @@
 # Week 30
 
-## ideas ???
-
-- JSON file format
-- package.json
-- more on npm
-- git ignore
-- git stash 
-- git rebase
-- have them do jhXCTbFnK8o next week, maybe... (twice)
-
-...next week...
-- ssh into github
-
 ## DO
 
 - json file format
 - package.json
-- npm
+- git checkout -b <new-br> <remote>/<remote-br>
 - gitignore
 - git stash
 - git rebase
 - html new tags
+- anonymous functions / arrow functions
 
 ### HTML (other semantic tags)
 
@@ -32,3 +20,5 @@
 - main
 - aside
 - article
+
+
