@@ -1,6 +1,12 @@
 ## Week 11
 
+PREP 
+Codepen for `position` work
+TS sctratch for type widening and Generics
+
+
 -- (note) do CSS first --
+* maybe go over harriet's code ... ???
 * TS: type "widening"
 * TS: Generics (pants)
 
@@ -33,6 +39,35 @@ CSS "Psuedo-classes"
   - `keyword (odd|even)` or `<An + B>`
 - `:first-child`
 - `:last-child`
+
+ITERATION
+```js
+draw(height:number);
+// nested for loop
+```
+
+"what is the definition of a pyramid of Height=4? 
+"it's a pyramid of height 3, plus one aditional row"
+"let's DEFINE a bigger pyramid in terms of a smaller pyramid"
+"how do i draw a pyramid of size 4 (in english)?" ANS: draw a pyramid of height 3
+
+BASE CASE
+
+RECURSION
+```
+function draw(h: number) {
+  if (h === 0) {
+    return;
+  }
+
+  draw(h - 1);
+
+  for (i = 0; i <= h; i++) {
+    process.stdout.write(`#`);
+  }  
+  process.stdout.write('\n');
+}
+```
 
 ### _Homework ideas_
 
