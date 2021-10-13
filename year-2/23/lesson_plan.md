@@ -1,5 +1,13 @@
 # Week 23
 
+my icons in slack
+plan for next two sessions and into summer
+mysql
+escaping chars in strings `https://imgs.xkcd.com/comics/backslashes.png`
+talk through the idea of the flashcards homework
+interfaces in Typescript
+
+
 MYSQL!
 
 `mysql -u <user> -p` -- connect to mysql shell
