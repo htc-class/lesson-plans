@@ -1,9 +1,15 @@
 # Week 5
 
-Maybe solve `credit` in front of them...
+pp projects (some of them have been a bit lean...)
 review your own diffs on GitLab for slacking.
+Talk through monkey, work then read
+review pointers, then...
+solve `credit` in front of them...
+while teaching about debugging
 
 C debugging...
+
+conceptualizing arrays in C
 
 
 ## CS50
@@ -47,4 +53,22 @@ Ch 6. projects:
 
 ## willow modifications
 - skip king c 5
+
+### homework:
+King C
+Monkey
+PP
+
+## next week class
+
+arrays in C
+parse 2 + 3 * 4 on whiteboard
+
+## next week homework
+
+flashcards, pull categories with a separate query
+extra credit, learn about promise.all to do the queries simultaneously
+
+
+
 
